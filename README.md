@@ -8,12 +8,18 @@ Copy a mysqldump of the test database in the `data` folder. It should be a `.sql
 
 Modify the following variables in the Dockerfile:
 
-ENV APP_MYSQL_DB 
+ENV APP_MYSQL_DB
+
 ENV APP_MYSQL_USER 
-ENV APP_MYSQL_PASS 
-ENV APP_MYSQL_TEST_DATA 
-ENV GIT_REPO_URL 
+
+ENV APP_MYSQL_PASS
+
+ENV APP_MYSQL_TEST_DATA
+
+ENV GIT_REPO_URL
+
 ENV GIT_BRANCH
+
 
 Building
 --------
